@@ -5,6 +5,7 @@ class BodyText extends React.Component {
   render() {
     return (
       // <View>とはHtmlで言うと<div>のようなもの
+      // 親で設定できるような仕様に{this.props.children}に
       <View>
         <Text style={styles.text}>
           {this.props.children}
